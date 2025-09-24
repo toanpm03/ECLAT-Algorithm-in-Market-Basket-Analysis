@@ -13,6 +13,7 @@
   
 - Practical Applications: Market Basket Analysis → frequent itemset discovery & association rule mining → optimize product placement, inventory management, and personalized recommendations.
 ### Project Structure
+```text
 ├── data/
 │   ├── source.csv             # Transaction data in 2015
 ├── docs/
