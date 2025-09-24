@@ -15,7 +15,7 @@
 ### Project Structure
 ```text
 ├── data/
-│   ├── source.csv             # Transaction data in 2015
+│   ├── source.csv             # Transactional data in 2015
 ├── docs/
 │   └── presentation.ppt       # Summary of report
 │   ├── report.pdf             # Detailed report
