@@ -1,4 +1,4 @@
-## Application of the ECLAT Algorithm in Market Basket Analysis
+**## Application of the ECLAT Algorithm in Market Basket Analysis
 - Author: Toan Pham Minh, Binh Nguyen To, Dat Mai Hien, Tram Nguyen Hong
   
 - Project Type: Association rule mining
@@ -15,16 +15,10 @@
 ### Project Structure
 ```text
 ├── data/
-│   ├── 0. QlikView_2013 invoice detail.xlsx            # detailed invoice in 2013
-│   ├── 0. QlikView_2014 invoice detail.xlsx            # detailed invoice in 2014
-│   ├── 0. QlikView_Invoice Header.xlsx                 # overall invoice from 2013 to 2014
-│   ├── 0. QlikView_Lookup Table.xlsx                   # dimension tables
+│   ├── source.csv             # Transactional data in 2015
 ├── docs/
-│   └── data_dictionary.xlsx                            # glossary of data
-│   ├── data_model.png                                  # data model
-│   └── report.ppt                                      # automated report
-│   ├── recommendation.pdf                              # sales analysis
+│   └── presentation.ppt       # Summary of report
+│   ├── report.pdf             # Detailed report
 ├── notebooks/                     
-│   ├── price_optimization.ipynb                        # implementation
+│   ├── source_code.ipynb      # implementation
 └── README.md
-
