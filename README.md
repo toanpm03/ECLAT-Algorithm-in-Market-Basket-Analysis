@@ -15,10 +15,16 @@
 ### Project Structure
 ```text
 ├── data/
-│   ├── source.csv             # Transactional data in 2015
+│   ├── 0. QlikView_2013 invoice detail.xlsx            # detailed invoice in 2013
+│   ├── 0. QlikView_2014 invoice detail.xlsx            # detailed invoice in 2014
+│   ├── 0. QlikView_Invoice Header.xlsx                 # overall invoice from 2013 to 2014
+│   ├── 0. QlikView_Lookup Table.xlsx                   # dimension tables
 ├── docs/
-│   └── presentation.ppt       # Summary of report
-│   ├── report.pdf             # Detailed report
+│   └── data_dictionary.xlsx                            # glossary of data
+│   ├── data_model.png                                  # data model
+│   └── report.ppt                                      # automated report
+│   ├── recommendation.pdf                              # sales analysis
 ├── notebooks/                     
-│   ├── source_code.ipynb      # implementation
+│   ├── price_optimization.ipynb                        # implementation
 └── README.md
+
